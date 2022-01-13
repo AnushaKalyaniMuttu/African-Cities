@@ -1,0 +1,1 @@
+select CI.name from city CI inner join country C on CI.COUNTRYCODE=C.CODE WHERE C.CONTINENT='Africa';
